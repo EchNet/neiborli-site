@@ -11,7 +11,8 @@ body {
   line-height: 1.30;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  background-color: #efefef;
+  background-color: #FAFBFC;
+  color: #374151;
 }
 header {
   position: fixed;
@@ -25,9 +26,7 @@ header {
   text-align: center;
   padding-top: 48px;
   font-size: 36px;
-  color: #243464;
   font-weight: 700;
-  background-color: white;
   transition: 0.25s;
 }
 .subline {
@@ -36,9 +35,7 @@ header {
   text-align: center;
   font-size: 16px;
   font-weight: 300;
-  color: #888888;
   text-transform: uppercase;
-  background-color: white;
   transition: 0.25s;
 }
 header.minimized .headline {
@@ -52,7 +49,6 @@ header.minimized .subline {
   transition: 0.25s;
 }
 footer {
-  background-color: #a36773;
   text-align: center;
   padding: 40px 0;
   position: fixed;
@@ -66,26 +62,20 @@ a[href] button {
   border: 3px solid #ddb181;
   border-radius: 14px;
   cursor: pointer;
-  color: black;
 }
 a[href]:hover button {
-  border-color: #efddc8;
-  color: #243464;
   box-shadow: 0 0 21px 8px white;
 }
 footer a[href] {
   font-family: Sarabun, Arial, sans-serif;
   font-size: 20px;
   cursor: pointer;
-  color: white;
   text-decoration: none;
 }
 footer a[href]:hover {
-  color: #dde866;
   text-decoration: underline;
 }
 footer span {
-  color: white;
 }
 section {
   font-size: 18px;
@@ -94,7 +84,6 @@ section {
   margin: auto;
   padding-top: 9px;
   padding-bottom: 9px;
-  background-color: white;
 }
 section:nth-of-type(1) {
   padding-top: 185px;
@@ -106,10 +95,8 @@ section em {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  color: #a36773;
 }
 section b {
-  color: #243464;
   font-weight: 400;
 }
 section li {
