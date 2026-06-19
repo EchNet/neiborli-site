@@ -1,0 +1,123 @@
+html, body, div, section, header, footer, ul, li {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.30;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: #efefef;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 720px;
+  max-width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.headline {
+  text-align: center;
+  padding-top: 48px;
+  font-size: 36px;
+  color: #243464;
+  font-weight: 700;
+  background-color: white;
+  transition: 0.25s;
+}
+.subline {
+  padding-bottom: 48px;
+  border-bottom: solid 1px #243464;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: #888888;
+  text-transform: uppercase;
+  background-color: white;
+  transition: 0.25s;
+}
+header.minimized .headline {
+  padding-top: 5px;
+  font-size: 20px;
+  transition: 0.25s;
+}
+header.minimized .subline {
+  padding-bottom: 5px;
+  font-size: 0px;
+  transition: 0.25s;
+}
+footer {
+  background-color: #a36773;
+  text-align: center;
+  padding: 40px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+a[href] button {
+  font-family: Sarabun, Arial, sans-serif;
+  font-size: 20px;
+  padding: 8px 16px;
+  border: 3px solid #ddb181;
+  border-radius: 14px;
+  cursor: pointer;
+  color: black;
+}
+a[href]:hover button {
+  border-color: #efddc8;
+  color: #243464;
+  box-shadow: 0 0 21px 8px white;
+}
+footer a[href] {
+  font-family: Sarabun, Arial, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+footer a[href]:hover {
+  color: #dde866;
+  text-decoration: underline;
+}
+footer span {
+  color: white;
+}
+section {
+  font-size: 18px;
+  width: 720px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: white;
+}
+section:nth-of-type(1) {
+  padding-top: 185px;
+}
+section > div {
+  margin: 0 23px 18px 23px;
+}
+section em {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #a36773;
+}
+section b {
+  color: #243464;
+  font-weight: 400;
+}
+section li {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+img {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
