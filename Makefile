@@ -11,6 +11,7 @@ default: deploy
 
 deploy:
 	aws s3 --profile echnet sync ./static s3://neiborli-site --exclude .DS_Store
+	aws cloudfront create-invalidation --distribution-id=E1APZ3ZFRP9YGO --paths "/*"
 
 package-lock.json: package.json
 	$(NPM) install
